@@ -1,5 +1,5 @@
 def is_palindrome(s)
-  words = s.downcase.gsub!(/[^a-z0-9]/i,"")
+  words = s.downcase.gsub(/[^a-z0-9]/i,"")
   words == words.reverse
 end
 
