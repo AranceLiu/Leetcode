@@ -3,6 +3,6 @@ def is_palindrome(s)
   words == words.reverse
 end
 
-puts is_palindrome("A man, a plan, a canal: Panama")
-puts is_palindrome("race a car")
-puts is_palindrome(" ")
+puts is_palindrome("A man, a plan, a canal: Panama") #true
+puts is_palindrome("race a car") #false
+puts is_palindrome(" ") #true
